@@ -39,7 +39,7 @@ def read_stdin():
         pass
 
 # Connect to the server
-sio.connect('http://localhost:8889')
+sio.connect('http://localhost:6006')
 
 # Start a thread to read from stdin
 stdin_thread = threading.Thread(target=read_stdin, daemon=True)
